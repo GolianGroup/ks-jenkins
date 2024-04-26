@@ -1,6 +1,5 @@
 build:
 	jcli cwp --install-artifacts --config-path formula.yaml \
-            --value-set output=load \
             --value-set tag=kubespheredev/ks-jenkins:test \
             --value-set platform=linux/amd64
 
